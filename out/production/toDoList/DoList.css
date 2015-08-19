@@ -1,0 +1,47 @@
+.root{
+    -fx-background-image: url("http://i.imgur.com/2SEYbpP.jpg");
+    -fx-background-size:cover;
+    -fx-background-color: #3a3636;
+    font-family: "Lucida Console";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: #090a0c,
+        linear-gradient(#38424b 0%, #0d5339 20%, #2a493c 100%),
+        linear-gradient(#20262b, #2a493c);
+    font-family: "Lucida Console";
+    -fx-text-fill: white;
+
+}
+
+.button:hover{
+    -fx-background-color:  #090a0c,
+    linear-gradient(#38424b 0%, #e5e6eb 20%, #74d600 100%),
+    linear-gradient(#20262b, #74d600);
+}
+
+.label{
+
+    font-family: "Lucida Console";
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #090a0c,
+    linear-gradient(#38424b 0%, #0d5339 20%, #2a493c 100%),
+    linear-gradient(#20262b, #2a493c);
+    -fx-padding: 3px;
+    -fx-background-radius: 10px;
+}
+
+
+.text-field{
+    -fx-background-color: #a2a0ae;
+    -fx-text-fill: #1f1e24;
+    -fx-prompt-text-fill: #55545a;
+}
+
+.list-view{
+    -fx-background-color: #f0f0f0;
+}
