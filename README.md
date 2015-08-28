@@ -10,7 +10,7 @@ toDo has three different task sorting functions, task name, date, and today. Sor
 ![alt text](https://github.com/evanllewellyn/toDoList/blob/master/toDoPic/sortToday.png "sort by today")
 
 Sort by name displays alls tasks with the entered name, ignoring cases. It displays the tasks in the form of 
-<taskname> | date: <mm-dd-yyyy>, an example of this can be seen below. 
+taskname | date: mm-dd-yyyy, an example of this can be seen below. 
 
 ![alt text](https://github.com/evanllewellyn/toDoList/blob/master/toDoPic/sortname.png "sort by name")
 
